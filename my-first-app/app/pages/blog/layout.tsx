@@ -9,10 +9,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ko">
-      <body>
-        {children}
-        </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   )
 }
